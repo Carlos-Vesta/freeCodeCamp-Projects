@@ -45,3 +45,13 @@ input, textarea, select {
     width: 100%;
     margin: 10px 0 0 0;
 }
+
+/* Removing the earlier rule
+ which set all the input elements to 
+ width: 100% in a second fieldset 
+ */
+.inline {
+    width: unset;
+    margin: 0 5em 0 0;
+    vertical-align: middle;
+}
