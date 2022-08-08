@@ -20,3 +20,11 @@ h1, p {
     margin: 1em auto;
     text-align: center;  
 }
+
+/* Styling the form */
+form {
+    margin: 0 auto;
+    max-width: 500px;
+    min-width: 300px;
+    width: 60vw;
+}
