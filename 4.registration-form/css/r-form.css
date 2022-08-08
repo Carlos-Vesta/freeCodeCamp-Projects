@@ -5,10 +5,18 @@ body {
     margin: 0;
     background-color: #1b1b32;
     color: #f5f6f7;
+    font-family: Tahoma;
+    font-size: 16px;
 }
 
 /* Styling a Label */
 label {
     display: block;
     margin: 0.5rem 0;
+}
+
+/* Styling h1 and p */
+h1, p {
+    margin: 1em auto;
+    text-align: center;  
 }
