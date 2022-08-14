@@ -1,0 +1,83 @@
+/* Styling the body */
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #515186;
+    color: #f5f6f7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+/* Styling a Label */
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+/* Styling h1 and p */
+#title, #description {
+    margin: 1em auto;
+    text-align: center;  
+}
+
+#description {
+    margin-top: -25px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+/* Styling the form */
+#survey-form {
+    margin: 0 auto;
+    max-width: 600px;
+    min-width: 400px;
+    width: 60vw;
+    padding: 2em;
+    background-color: #1b1b32;
+    border-radius: 5px;
+}
+
+/* Styling fieldset */
+fieldset {
+    border: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+fieldset:first-of-type {
+   margin-top: 0;
+}
+
+/* Styling input to have 100% of width */
+#dropdown, #dropdown-2, #textarea, input[type="text"], input[type="email"], input[type="number"] {
+    width: 100%;
+    margin: 10px 0 0 0;
+    min-height: 2em;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+#name-label, #email-label, #number-label {
+    margin-top: 30px;
+}
+
+#dropdown, #dropdown-2 {
+    padding: 8px 2px;
+}
+
+
+/* Styling the submit button */
+#submit {
+    width: 100%;
+    min-height: 2em;
+    font-size: 16px;
+    background-color: rgb(58, 158, 96);
+    border: 1px solid rgb(58, 158, 96);
+    color: #FFFFFF;
+    margin: 20px 0;
+    padding: 10px;
+    
+}
+
+
