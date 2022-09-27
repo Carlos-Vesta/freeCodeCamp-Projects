@@ -26,14 +26,14 @@ body {
 } 
 
 /* Image Section */
-#img-div {
+figure #img-div {
     /* padding: 5px; */
     background-color: #ffffff;
     margin: auto;
     width: 98%;
 }
 
-#image {
+figure #image {
     max-width: 100%;
     min-width: 300px;
     height: auto;
@@ -79,6 +79,6 @@ footer p {
     font-weight: bold;
 }
 
-footer a {
+#tribute-link {
     color: #477ca7;
 }
