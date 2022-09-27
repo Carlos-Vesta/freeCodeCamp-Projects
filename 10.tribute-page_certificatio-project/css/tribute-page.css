@@ -5,10 +5,11 @@
 
 body {
     font-family: Roboto;
+    color: #333333;
 }
 
 #main {
-    background-color: rgb(221, 218, 218);
+    background-color: rgb(238, 238, 238);
     margin: 50px auto;
     width: 95%;
     border-radius: 10px;
@@ -21,6 +22,7 @@ body {
 
 #title h1 {
     padding-top: 50px;
+    font-size: 40px;
 } 
 
 /* Image Section */
@@ -53,9 +55,10 @@ figcaption {
     min-width: 300px;
 }
 
-#tribute-info h2 {
+#tribute-info h3 {
     padding: 30px 0;
     text-align: center;
+    font-size: 18px;
 }
 
 #tribute-info ul li, #tribute-info p {
@@ -71,7 +74,11 @@ footer {
 
 footer p {
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
     padding: 20px 0;
     font-weight: bold;
+}
+
+footer a {
+    color: #477ca7;
 }
