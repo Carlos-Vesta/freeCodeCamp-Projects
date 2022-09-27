@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessibility Quiz</title>
+    <!-- <link rel="stylesheet" href="css/accessibility-quiz.css"> -->
+    <link rel="stylesheet" href="css/accessibility-quiz1.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <img src="img/fcc_primary.svg" alt="" id="logo">
+        <h1>HTML/CSS Quiz</h1>
+
+        <!-- Navegation menu -->
+        <nav>
+            <ul>
+                <li><a href="#student-info">info</a></li>
+                <li><a href="#html-questions">html</a></li>
+                <li><a href="#css-questions">css</a></li>
+            </ul>
+        </nav>  <!-- Navegation menu -->
+    </header> <!-- Header Section -->
+
+    <!-- Main Section -->
+    <main>
+        <!-- Form Section -->
+        <form action="#" method="post">
+            <!-- student-info section -->
+            <section role="region" aria-labelledby="student-info">
+                <h2 id="student-info">Student Info</h2>
+
+                <div class="info">
+                    <label for="student-name">Name: <input type="text" id="student-name" name="name"></label>
+
+                </div>
+
+                <div class="info">
+                    <label for="student-email">Email: <input type="email" id="student-email" name="email"></label>
+                    
+                </div>
+
+                <div class="info">
+                    <label for="student-dob">D.O.B. <span class="sr-only">(Date of Birth)</span><input type="date" id="student-dob" name="dob"></label>
+                    
+                </div>
+            </section> <!-- student-info section -->
+
+            <!-- html-questions section -->
+            <section role="region" aria-labelledby="html-questions">
+                <h2 id="html-questions">HTML</h2>
+
+                <!-- First div html-questions -->
+                <div class="question-block">
+                    <p>1</p>
+
+                    <fieldset class="question" name="">
+                        <legend>The legend element represents a caption for the content of its parent fieldset element </legend>
+
+                        <ul class="answers-list">
+                           <li><label for="true-1"><input type="radio" id="true-1" name="true-false" value="true">True</label></li>
+                           <li><label for="false-1"><input type="radio" id="false-1" name="true-false" value="false">False</label></li>
+                        </ul>
+
+                    </fieldset>
+                </div> <!-- First div html-questions -->
+
+                <!-- Second div html-questions -->
+                <div class="question-block">
+                    <p>2</p>
+
+                    <fieldset class="question" name="">
+                        <legend>A label element nesting an input element is required to have a for attribute with the same value as the input's id </legend>
+
+                        <ul class="answers-list">
+                            <li><label for="true-2"><input type="radio" id="true-2" name="true-false-2" value="true">True</label></li>
+                           <li><label for="false-2"><input type="radio" id="false-2" name="true-false-2" value="false">False</label></li>
+                        </ul>
+
+                    </fieldset>
+                </div> <!-- Second div html-questions -->
+
+            </section> <!-- html-questions section -->
+
+            <!-- css-questions section -->
+            <section role="region" aria-labelledby="css-questions">
+                <h2 id="css-questions">CSS</h2>
+
+                <!-- formrow div -->
+                <div class="formrow">
+                    <!-- question-block div 1 -->
+                    <div class="question-block">
+                        <label for="select-answer">Text content 1</label>
+                    </div> <!-- question-block div 1 -->
+
+                    <!-- answer div 1 -->
+                    <div class="answer">
+                        <select name="the-answer" id="select-answer">
+                            <option value="" selected disabled>Select an option</option>
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                        </select>
+
+                    </div>  <!-- answer div 1 -->
+
+                    <!-- question-block div 2 -->
+                    <div class="question-block">
+                        <label for="textarea-answer">Text content 2</label>
+                    </div> <!-- question-block div 2 -->
+
+                     <!-- answer div 2 -->
+                    <div class="answer">
+                        <textarea name="textarea" id="textarea-answer" cols="40" rows="10" placeholder="Write here about your answers!"></textarea>
+                    </div>  <!-- answer div 1 -->
+
+                </div> <!-- formrow div -->
+
+            </section> <!-- css-questions section -->
+
+            <button>Submit</button>
+        </form> <!-- Form Section -->
+
+    </main> <!-- Main Section -->
+
+    <!-- Footer Section -->
+    <footer>
+        <address>
+            <a href="https://freecodecamp.org">freeCodeCamp<br /></a>
+            San Francisco<br />
+            California<br />
+            USA
+        </address>
+    </footer> <!-- Footer Section -->
+    
+</body>
+</html>
