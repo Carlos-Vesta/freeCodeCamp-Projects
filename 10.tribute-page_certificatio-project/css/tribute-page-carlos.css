@@ -1,0 +1,67 @@
+/* 
+
+#main
+#title
+#img-div
+#image
+#img-caption
+div-info
+#tribute-info
+
+*/
+
+body {
+    font-family: Roboto;
+    color: #333333;
+}
+
+#main {
+    background-color: rgb(238, 238, 238);
+    width: 90%;
+    border-radius: 10px;
+    padding: 2%;
+    margin: 2% auto;
+}
+
+#title {
+    text-align: center;
+}
+
+/* Centralizando imagem com a propriedade "text-align" */
+#img-div {
+    width: 80%;
+    background-color: #FFFFFF;
+    padding: 2%;
+    margin: auto;
+    text-align: center;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+}
+
+#img-caption {
+    padding-top: 5px;
+}
+
+#div-info {
+    padding: 2%;
+    width: 45%;
+    min-width: 300px;
+    margin: auto;
+}
+
+#tribute-info {
+    text-align: center;
+    margin: 50px;
+}
+
+ul > li {
+    padding-bottom: 10px;
+
+}
+
+footer > p {
+    text-align: center;
+}
